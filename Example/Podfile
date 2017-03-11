@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JKAPIMock_Example' do
+  pod 'JKAPIMock', :path => '../'
+
+  target 'JKAPIMock_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
