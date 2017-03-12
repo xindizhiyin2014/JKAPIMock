@@ -1,0 +1,6 @@
+framework module JKAPIMock {
+  umbrella header "JKAPIMock-umbrella.h"
+
+  export *
+  module * { export * }
+}

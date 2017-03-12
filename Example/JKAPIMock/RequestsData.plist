@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>goLogin</key>
+	<dict>
+		<key>url</key>
+		<string>/china/index.php?name=123&amp;sex=male&amp;age=22</string>
+		<key>method</key>
+		<string>GET</string>
+		<key>headers</key>
+		<dict/>
+		<key>response</key>
+		<dict>
+			<key>info</key>
+			<string>hi I&apos;m Jack</string>
+		</dict>
+		<key>isMock</key>
+		<true/>
+	</dict>
+	<key>goSearchInfo</key>
+	<dict>
+		<key>url</key>
+		<string>/china/abc.php</string>
+		<key>method</key>
+		<string>POST</string>
+		<key>headers</key>
+		<dict/>
+		<key>body</key>
+		<dict>
+			<key>name</key>
+			<string>123</string>
+			<key>sex</key>
+			<string>male</string>
+			<key>age</key>
+			<string>22</string>
+		</dict>
+		<key>response</key>
+		<dict>
+			<key>info</key>
+			<string>hi I&apos;m Jack and I&apos;m an iOS developer</string>
+		</dict>
+		<key>isMock</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

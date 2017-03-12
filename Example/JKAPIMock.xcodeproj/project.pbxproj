@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041A49B51E73FDAF00AC3D8D /* RequestsData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 041A49B41E73FDAF00AC3D8D /* RequestsData.plist */; };
+		041A49B81E750D8800AC3D8D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A49B61E750D8800AC3D8D /* AFNetworking.framework */; };
+		041A49B91E750D8800AC3D8D /* GYHttpMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A49B71E750D8800AC3D8D /* GYHttpMock.framework */; };
+		041A4A221E75166A00AC3D8D /* JKAPIMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041A49BB1E7510F200AC3D8D /* JKAPIMock.framework */; };
 		2EF827B96DBB1C65B48199ED /* Pods_JKAPIMock_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0577DE8D1E3D71EBAE294C5 /* Pods_JKAPIMock_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -21,7 +25,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		651A8950FA3872B83A8E9FA2 /* Pods_JKAPIMock_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532DCA0AABCAF8A34A5B7B40 /* Pods_JKAPIMock_Example.framework */; };
+		69B713676DFEFD8705A5BC4A /* Pods_JKAPIMock_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532DCA0AABCAF8A34A5B7B40 /* Pods_JKAPIMock_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,8 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23177EF8C59C28EFDC35EA81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2E5C79EB901574D61725A579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		041A49B41E73FDAF00AC3D8D /* RequestsData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RequestsData.plist; sourceTree = "<group>"; };
+		041A49B61E750D8800AC3D8D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/JKAPIMock-cnwisjzkyzzeoudroeysfqigsceh/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		041A49B71E750D8800AC3D8D /* GYHttpMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GYHttpMock.framework; path = "../../../Library/Developer/Xcode/DerivedData/JKAPIMock-cnwisjzkyzzeoudroeysfqigsceh/Build/Products/Debug-iphonesimulator/GYHttpMock/GYHttpMock.framework"; sourceTree = "<group>"; };
+		041A49BB1E7510F200AC3D8D /* JKAPIMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JKAPIMock.framework; path = "../../../Library/Developer/Xcode/DerivedData/JKAPIMock-cnwisjzkyzzeoudroeysfqigsceh/Build/Products/Debug-iphonesimulator/JKAPIMock/JKAPIMock.framework"; sourceTree = "<group>"; };
+		23177EF8C59C28EFDC35EA81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E5C79EB901574D61725A579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		438DA01CC9873D2513C9B20D /* Pods-JKAPIMock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPIMock_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKAPIMock_Tests/Pods-JKAPIMock_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		532DCA0AABCAF8A34A5B7B40 /* Pods_JKAPIMock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKAPIMock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* JKAPIMock_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKAPIMock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +71,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748967177CF834E5F3280E61 /* Pods-JKAPIMock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPIMock_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKAPIMock_Example/Pods-JKAPIMock_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94779029A5D8D883B0317172 /* JKAPIMock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JKAPIMock.podspec; path = ../JKAPIMock.podspec; sourceTree = "<group>"; };
+		94779029A5D8D883B0317172 /* JKAPIMock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKAPIMock.podspec; path = ../JKAPIMock.podspec; sourceTree = "<group>"; };
 		A8E217ABE4A065A797E33959 /* Pods-JKAPIMock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPIMock_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKAPIMock_Example/Pods-JKAPIMock_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5DBA93248DF2B77708D9EC6 /* Pods-JKAPIMock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPIMock_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKAPIMock_Tests/Pods-JKAPIMock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D0577DE8D1E3D71EBAE294C5 /* Pods_JKAPIMock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKAPIMock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,10 +82,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041A4A221E75166A00AC3D8D /* JKAPIMock.framework in Frameworks */,
+				041A49B81E750D8800AC3D8D /* AFNetworking.framework in Frameworks */,
+				041A49B91E750D8800AC3D8D /* GYHttpMock.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				651A8950FA3872B83A8E9FA2 /* Pods_JKAPIMock_Example.framework in Frameworks */,
+				69B713676DFEFD8705A5BC4A /* Pods_JKAPIMock_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +130,9 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				041A49BB1E7510F200AC3D8D /* JKAPIMock.framework */,
+				041A49B61E750D8800AC3D8D /* AFNetworking.framework */,
+				041A49B71E750D8800AC3D8D /* GYHttpMock.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -137,6 +151,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JKViewController.h */,
 				6003F5A6195388D20070C39A /* JKViewController.m */,
+				041A49B41E73FDAF00AC3D8D /* RequestsData.plist */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JK;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = HHL110120;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -281,6 +296,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				041A49B51E73FDAF00AC3D8D /* RequestsData.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -459,14 +475,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -499,13 +520,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

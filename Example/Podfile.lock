@@ -1,0 +1,37 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GYHttpMock (1.0.1)
+  - JKAPIMock (0.1.0):
+    - GYHttpMock
+
+DEPENDENCIES:
+  - AFNetworking
+  - GYHttpMock
+  - JKAPIMock (from `../`)
+
+EXTERNAL SOURCES:
+  JKAPIMock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GYHttpMock: ad08e55ce8bde4e7f7b4d0cbc79ff23c1311658b
+  JKAPIMock: 85b3186b16bcfe2206990ce91ada52c318cc1c9f
+
+PODFILE CHECKSUM: a36ee8f49fe3334234c460792e647249dde0a412
+
+COCOAPODS: 1.1.1

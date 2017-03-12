@@ -1,7 +1,10 @@
 use_frameworks!
 
 target 'JKAPIMock_Example' do
+    
   pod 'JKAPIMock', :path => '../'
+  pod 'GYHttpMock'
+  pod 'AFNetworking'
 
   target 'JKAPIMock_Tests' do
     inherit! :search_paths
