@@ -7,7 +7,8 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first. if you want to know how to use this tool please run the demo.you just need to config a plist file of you API, then you can happily to mock The data of your app's APIs
+the config of the plist file's snapshot is [here](https://github.com/xindizhiyin2014/JKAPIMock/blob/master/snapshots/plistSnapshot.png?raw=true) 
 
 ## Requirements
 

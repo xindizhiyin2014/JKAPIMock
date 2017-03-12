@@ -22,7 +22,7 @@ this is a tool to help iOS developer mock API data to support parallel developme
                        DESC
 
   s.homepage         = 'https://github.com/xindizhiyin2014/JKAPIMock'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'https://github.com/xindizhiyin2014/JKAPIMock/blob/master/snapshots/plistSnapshot.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HHL110120' => '929097264@qq.com' }
   s.source           = { :git => 'https://github.com/xindizhiyin2014/JKAPIMock.git', :tag => s.version.to_s }
