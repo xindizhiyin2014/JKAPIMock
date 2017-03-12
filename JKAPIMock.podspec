@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKAPIMock'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'this is a tool to help iOS developer mock API data to support parallel development.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ this is a tool to help iOS developer mock API data to support parallel developme
   s.source           = { :git => 'https://github.com/xindizhiyin2014/JKAPIMock.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'JKAPIMock/Classes/**/*'
   
